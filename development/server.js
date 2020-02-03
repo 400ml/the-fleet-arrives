@@ -13,6 +13,6 @@ MongoClient.connect('mongodb://localhost:27017/ufo_db', (err, db) => {
   require('./app/routes')(app)
   
   app.listen(port, () => {
-  	console.log(`Server listen on port: ${port}`)
+  	console.log(`Server start listening on port: ${port}`)
 	})
 })
